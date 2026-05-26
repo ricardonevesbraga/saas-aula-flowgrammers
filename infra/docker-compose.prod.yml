@@ -5,7 +5,7 @@ services:
     env_file: .env
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.app.rule=Host(`app.avalieomeuatendimento.com.br`) || Host(`a.avalieomeuatendimento.com.br`) || Host(`www.avalieomeuatendimento.com.br`)"
+      - "traefik.http.routers.app.rule=Host(`app.avaliemeuatendimento.snows06.shop`) || Host(`a.avaliemeuatendimento.snows06.shop`) || Host(`www.avaliemeuatendimento.snows06.shop`)"
       - "traefik.http.routers.app.entrypoints=websecure"
       - "traefik.http.routers.app.tls.certresolver=letsencrypt"
       - "traefik.http.services.app.loadbalancer.server.port=3000"
