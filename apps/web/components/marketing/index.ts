@@ -1,0 +1,8 @@
+export { HeroSection } from './HeroSection'
+export { TrustBar } from './TrustBar'
+export { PainSection } from './PainSection'
+export { HowItWorks } from './HowItWorks'
+export { FeaturesSection } from './FeaturesSection'
+export { PricingSection } from './PricingSection'
+export { FAQ } from './FAQ'
+export { FooterMarketing } from './FooterMarketing'

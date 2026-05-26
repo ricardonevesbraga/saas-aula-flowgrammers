@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.DS_Store
+.env
+.env.local
+infra/.env
+infra/traefik/letsencrypt/
+*.log
+.supabase/
+CLAUDE.md
+**/CLAUDE.md
+AGENTS.md
+**/AGENTS.md
