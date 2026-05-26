@@ -1,3 +1,5 @@
+import { ThemeToggle } from '@/components/ui/ThemeToggle'
+
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">
@@ -6,6 +8,7 @@ export default function MarketingLayout({ children }: { children: React.ReactNod
           Avalie Meu <span className="text-green-600 dark:text-green-400">Atendimento</span>
         </div>
         <div className="flex items-center gap-3">
+          <ThemeToggle />
           <a href="/login" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white text-sm">
             Entrar
           </a>
