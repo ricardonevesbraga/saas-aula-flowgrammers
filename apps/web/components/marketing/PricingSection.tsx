@@ -157,10 +157,8 @@ export function PricingSection({ id = 'pricing' }: PricingSectionProps = {}) {
               opacity: visible ? 1 : 0,
               translate: visible ? '0 0' : '0 24px',
               transitionDelay: '0ms',
-              background:
-                'linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)',
             }}
-            className="plan-free relative flex scale-[1.02] flex-col rounded-2xl border-2 border-[#1E3A8A] p-8 will-change-transform dark:border-blue-400 dark:bg-[linear-gradient(135deg,#1E293B_0%,#0F172A_100%)]"
+            className="plan-free relative flex scale-[1.02] flex-col rounded-2xl border-2 border-[#1E3A8A] p-8 will-change-transform dark:border-blue-400 [background:linear-gradient(135deg,#EFF6FF_0%,#FFFFFF_100%)] dark:[background:linear-gradient(135deg,#1E293B_0%,#0F172A_100%)]"
           >
             <div className="absolute left-1/2 top-0 -translate-x-1/2">
               <span
